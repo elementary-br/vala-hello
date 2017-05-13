@@ -1,0 +1,13 @@
+Source: vala-hello
+Section: x11
+Priority: extra
+Maintainer: Leonardo Lemos <leonardo@elementary.io>
+Build-Depends: meson (>= 0.40),
+               debhelper (>= 9),
+               valac (>= 0.16)
+Standards-Version: 3.9.3
+
+Package: vala-hello
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Hello World
