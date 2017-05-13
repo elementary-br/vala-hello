@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Vala-hello
+Exec=/usr/bin/vala-hello
+Icon=applications-internet
+Terminal=false
+Type=Application
